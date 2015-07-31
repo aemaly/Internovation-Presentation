@@ -1,0 +1,167 @@
+<html ng-app="app">
+<head>
+
+<head>
+    <!--CSS-remove later for styling-->
+    <style>
+
+
+        h1{
+            text-align:center;
+        }
+
+        h2{text-align:center;
+            color: #007db8;
+        }
+
+
+        /* unvisited link */
+        a:link {
+            color: #007db8;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #007db8;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #007db8;
+        }
+
+        /* selected link */
+        a:active {
+            color: #C1D82F;
+        }
+
+        .carousel-inner > .item > img {
+            margin: 0 auto;
+        }
+
+    </style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+
+
+
+
+    <!--[if !IE]><!-->
+    <link rel="stylesheet" href="dell-ui-components/dell-ui-bootstrap/dell-ui-bootstrap.min.css">
+    <![endif]-->
+    <!--[if IE]>
+    <link rel="stylesheet" href="dell-ui-components/dell-ui-bootstrap/dell-ui-bootstrap-ie.min.css">
+    <![endif]-->
+
+
+
+    <script src="angular.min.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+
+
+
+
+<body ng-app = "app">
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+
+<![endif]-->
+<div>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+
+                    <i class="icon-ui-dell" style="
+                          font-size: 42px;
+                          position: relative;
+                          top: -12px;
+                          ">
+                    </i>
+                      <span style="
+                            position: relative;
+                            top: -22px;
+                            left: -5px;
+                            font-size: 20px;
+                        ">
+                        Dell Internovation Presentation
+                      </span>
+
+                </a>
+
+            </div>
+
+
+
+        </div>
+    </nav>
+    <div id="content" ng-include="&apos;demo.html&apos;"></div>
+</div>
+
+<div class="container">
+
+    <i class="icon-large-photos"></i>
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox" >
+            <div class="item active" >
+                <img src="duck.jpg" alt="First slide" style="width:700px;height:500px;">
+            </div>
+            <div class="item">
+                <img src="volleyball.jpg" alt="Second slide" style="width:700px;height:500px;">
+            </div>
+            <div class="item">
+                <img src="topgolf_1.jpg" alt="Third slide" style="width:700px;height:500px;">
+            </div>
+            <div class="item">
+                <img src="bowling_1.jpg" alt="Fourth Slide" style="width:800px;height:500px;">
+            </div>
+            <div class="item">
+                <img src="bowling_2.jpg" alt="Fifth Slide" style="width:800px;height:500px;">
+            </div>
+            <div class="item">
+                <img src="bowling_3.jpg" alt="Sixth Slide" style="width:800px;height:500px;">
+            </div>
+            <div class="item">
+                <img src="bowling_4.jpg" alt="Seventh Slide" style="width:300px;height:500px;">
+            </div>
+            <div class="item">
+                <img src="internovation.jpg" alt="Eighth Slide" style="width:800px;height:500px;">
+            </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+        </ol>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--CSS-remove later for styling-->
+        <style>
+
+        h1{text-align:center;
+        }
+        h2{text-align:center;
+            color: #007db8
+        }
+
+        </style>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link href="theme/dell-ui-bootstrap.less" type="text/css" rel="stylesheet/less"/>
+    <!--[if !IE]><!-->
+        <link rel="stylesheet" href="../dell-ui-bootstrap.min.css">
+        <![endif]--><!--[if IE]>
+        <link rel="stylesheet" href="../dell-ui-bootstrap-ie.min.css"><![endif]--></head>
+
+
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="angular.min.js"></script>
+    <script src="jquery.min.js"></script>
+
+    <body ng-app = "app">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <![endif]-->
+
+
+    <div>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+
+                        <i class="icon-ui-dell" style="
+                          font-size: 42px;
+                          position: relative;
+                          top: -12px;
+                          ">
+                        </i>
+                      <span style="
+                            position: relative;
+                            top: -22px;
+                            left: -5px;
+                            font-size: 20px;
+                        ">
+                        Dell Internovation Presentation
+                      </span>
+                    </a>
+                </div>
+
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-right">
+
+
+                        <li><a href="https://www.linkedin.com/pub/antonina-malyarenko/39/487/363" data-toggle="collapse" data-target="navbar.nav-collapse">LinkedIn</a></li>
+                        <li><a href="https://github.com/aemaly" data-toggle="collapse" data-target="navbar.nav-collapse">Github</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+
+            </div>
+        </nav>
+        <div id="content" ng-include="&apos;demo.html&apos;"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row-fluid" style="margin-left: 6px;">
+
+            <div class="col-sm-4 well well-white">
+                <h1>Antonina Malyarenko
+                </h1>
+            </div>
+
+            <div class="col-sm-4 well well-white">
+                <h1><a href = "http://ausuwcmycusap09/">Click Me!
+                    <i class="icon-ui-dell" style="
+                          font-size: 30px;
+                          position: relative;
+                          bottom: -2px;
+                          ">
+                    </i></a></h1>
+            </div>
+
+            <div class="col-sm-4 well well-white">
+                <h1><a href="Final%20Resume%2015.pdf">Resume</a></h1>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">
+                        Collapsible Group Item #1
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+
+            <div class="panel panel-primary  col-sm-4" style="margin-left: 6px;">
+                <div class="panel-title" id="headingOne" style="margin:0px;">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            My Project
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse out"  aria-labelledby="headingOne" aria-expanded="false">
+                    <div class="panel-body" data-toggle="collapsed">
+                        My additional project is a configuration document for the TeamCity BuildAgent continuous integration software. I'll provide a link here soon. I've been watching tutorials
+                        and creating a Google Doc of criteria for unit testing in TeamCity using MSTest and VSTest. The next version of TeamCity will have features that auto-detect
+                        and combine the software for these two frameworks, i.e., cross-compatibility. *Include explanation of differences between MSTest and VSTest* *Include link or screenshot
+                        of TFS task listing for understanding and configuring unit testing and code coverage in TeamCity*
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+
+
+    </body>
+</html>

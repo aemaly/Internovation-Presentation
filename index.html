@@ -1,0 +1,277 @@
+<html ng-app="app">
+<head>
+
+<head>
+    <!--CSS-remove later for styling-->
+    <style>
+
+
+        h1{
+            text-align:center;
+        }
+
+        h2{text-align:center;
+            color: #007db8;
+        }
+
+
+        /* unvisited link */
+        a:link {
+            color: #007db8;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #007db8;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #007db8;
+        }
+
+        /* selected link */
+        a:active {
+            color: #C1D82F;
+        }
+
+        .carousel-inner > .item > img {
+            margin: 0 auto;
+        }
+
+    </style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+
+
+
+
+    <!--[if !IE]><!-->
+    <link rel="stylesheet" href="dell-ui-components/dell-ui-bootstrap/dell-ui-bootstrap.min.css">
+    <![endif]-->
+    <!--[if IE]>
+    <link rel="stylesheet" href="dell-ui-components/dell-ui-bootstrap/dell-ui-bootstrap-ie.min.css">
+    <![endif]-->
+
+
+
+    <script src="angular.min.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+
+
+
+
+<body ng-app = "app">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+
+<![endif]-->
+<div>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+
+                    <i class="icon-ui-dell" style="
+                          font-size: 42px;
+                          position: relative;
+                          top: -12px;
+                          ">
+                    </i>
+                      <span style="
+                            position: relative;
+                            top: -22px;
+                            left: -5px;
+                            font-size: 20px;
+                        ">
+                        Dell Internovation Presentation
+                      </span>
+
+                </a>
+
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="photos.html"><i class="icon-small-photos"></i></a></li>
+                    <li><a href="Final%20Resume%2015.pdf">Resume</a></li>
+                    <li><a href="https://www.linkedin.com/pub/antonina-malyarenko/39/487/363" data-toggle="collapse" data-target="navbar.nav-collapse">LinkedIn</a></li>
+                    <li><a href="https://github.com/aemaly" data-toggle="collapse" data-target="navbar.nav-collapse">Github</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+
+        </div>
+    </nav>
+    <div id="content" ng-include="&apos;demo.html&apos;"></div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="row" style="margin-left: 6px;">
+
+        <div class="col-sm-4 well well-white">
+            <h1>Antonina Malyarenko
+            </h1>
+        </div>
+
+        <div class="col-sm-4 well well-white">
+
+            <h1>
+
+                <a href = "http://ausuwcmycusap09/"><i class="icon-small-touch"></i> Click Me!
+                <i class="icon-ui-dell" style="
+                          font-size: 30px;
+                          position: relative;
+                          bottom: -2px;
+                          ">
+                </i></a></h1>
+        </div>
+
+        <div class="col-sm-4 well well-white">
+            <h1>Antonina Malyarenko</h1>
+        </div>
+
+
+        <div class="col-sm-4 well well-white">
+            <h1>
+            </h1>
+        </div>
+
+
+
+        <div class="panel panel-primary  col-sm-4">
+            <div class="panel-title" id="headingOne" style="text-align:center;">
+                <h4 class="panel-title" >
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <i class="icon-small-touch"></i> My Project
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse out"  aria-labelledby="headingOne" aria-expanded="false">
+                <div class="panel-body" data-toggle="collapsed" style="text-align: center;">
+                    TeamCity Build Server: Understanding Unit Testing and Code Coverage Analysis in TeamCity
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 well well-white">
+            <h1>
+            </h1>
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+<div id="block-level-button-12">
+    <div class="row">
+        <p class="col-xs-12">
+            <button class="btn btn-light-gray btn-lg btn-block" type="button"></button>
+        </p>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#One">
+                    Project Overview: What is CI?
+                </a>
+            </h4>
+        </div>
+        <div id="One" class="panel-collapse collapse in">
+            <div class="panel-body">
+            CI allows for multiple integrations of code into a shared repository. Each check in can be used to verify problems early on in the development process.
+            The build can be automated and test itself, and anyone who has access to the server can see what's going on
+                <div class="top-offset-10">
+                    <div class="bottom-offset-5">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#Two" class="collapsed">
+                Benefits of CI
+               </a>
+            </h4>
+        </div>
+        <div id="Two" class="panel-collapse collapse">
+            <div class="panel-body">
+            -Developers check out code into their local workspaces, then commit changes to a repository after code review.
+            -The CI server monitors the repository and checks out changes, then builds the system and runs unit/integration tests
+            -The team is informed of the build's success or failure status, and the team can fix the issue quickly and efficiently
+                <div class="top-offset-10">
+                    <div class="bottom-offset-5">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#Three" class="collapsed">
+                   Summer at Dell
+                </a>
+            </h4>
+        </div>
+        <div id="Three" class="panel-collapse collapse">
+            <div class="panel-body">
+            Some more information
+                <div class="top-offset-10">
+                    <div class="bottom-offset-5">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
